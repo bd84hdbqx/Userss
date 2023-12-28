@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.title1{
+margin: auto;
+display: flex;
+flex-wrap: wrap;
+}
+.title1 .title{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+}
+.instagram{
+    font-size: 35px;
+    font-family: 'Mali', cursive
+}
+.profil{
+    font-size: 35px;
+    font-family: "Mali",cursive;
+}
+.container{
+    margin: auto;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+.image{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.detail{
+    width: 400px;
+    height: 200px;
+
+}
+.detail1{
+display: flex;
+justify-content: space-around;
+}
+.btn1{
+    width: 80px;
+    height: 40px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    border-radius: 50px;
+}
+h3{
+    font-size: 30px;
+}
+.detail2{
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+    margin-top: 25px;
+}
+.posts{
+    width: 100%;
+    border-top: 1px solid gray;
+    font-size: large;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}

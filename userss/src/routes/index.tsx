@@ -3,6 +3,7 @@ import Login from "../pages/login";
 import UserRout from "../pages/usersRout";
 import Register from '../pages/register/index';
 import Home from "../pages/home";
+import Profil from "../pages/profil";
 
 export const routers=[
     {
@@ -20,6 +21,10 @@ export const routers=[
           {
             path: "/register",
             element: <Register/>,
+          },
+          {
+            path: "/profil",
+            element: <Profil/>,
           },
         ],
       },

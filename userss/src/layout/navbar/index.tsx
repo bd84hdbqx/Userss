@@ -18,6 +18,7 @@ import InputBase from "@mui/material/InputBase";
 import Header from "../header";
 import Asynchronous from "../../Components/search";
 import Navs from "../../Components/search";
+import { useNavigate } from "react-router-dom";
 
 const Search = styled("div")(({ theme }) => ({
   position: "relative",
@@ -60,6 +61,7 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
 }));
 
 export default function Navbar() {
+  const navigate=useNavigate()
   const [auth, setAuth] = React.useState(true);
   const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null);
 
@@ -69,7 +71,7 @@ export default function Navbar() {
 
   const handleMenu = (event: React.MouseEvent<HTMLElement>) => {
     setAnchorEl(event.currentTarget);
-  };
+    navigate("/profil")}
 
   const handleClose = () => {
     setAnchorEl(null);
@@ -142,4 +144,5 @@ export default function Navbar() {
       <Header />
     </>
   );
-}
+                }
+  

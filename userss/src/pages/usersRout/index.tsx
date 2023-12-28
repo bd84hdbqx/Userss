@@ -6,7 +6,7 @@ type Props = {}
 
 function UserRout({}: Props) {
   return (
-    <><Navbar/>
+    <>
     <Outlet/>
     </>
   )
