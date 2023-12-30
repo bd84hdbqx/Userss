@@ -18,8 +18,7 @@ function Home({}: Props) {
           justifyContent:"center",
           alignItems:"center",
           flexWrap: "wrap",
-          gap: "20px",
-          border:"1px solid black"
+          gap: "20px"
         }}>
           <div style={{width:"400px"}}><RecipeReviewCard />
           <RecipeReviewCard />
